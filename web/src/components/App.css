@@ -1,0 +1,142 @@
+.admin .side-nav {
+  flex-basis: 240px;
+  background-color: #ed563b;
+  /* color: rgb(19, 183, 243); */
+  color: #000000;
+  min-height: 90vh;
+}
+
+.admin .side-nav .text {
+  color: #fafafa;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.admin .side-nav .text:hover {
+  background-color: rgb(238, 141, 124);
+  color: #000000;
+  text-decoration: none;
+}
+
+.admin .side-nav .text i {
+  margin-right: 1em;
+}
+
+.admin .side-nav .nav {
+  position: sticky;
+  top: 76px;
+}
+
+.admin .main {
+  flex-basis: 80%;
+  padding: 1rem 3rem;
+  min-width: 0;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 960px) {
+  .admin .side-nav {
+    flex-basis: 0;
+  }
+
+  .admin .side-nav .text span {
+    display: none;
+  }
+
+  .admin .side-nav .text i {
+    margin-right: 0;
+  }
+
+  .admin .main {
+    padding: 1rem 1.5rem;
+  }
+
+  .navDropdown {
+    width: auto;
+  }
+}
+/*
+.nav-tabs {
+  border-bottom: none;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+  color: white;
+  font-weight: bold;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #ed563b;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}
+.nav-tabs.requests .nav-item.show .nav-link,
+.nav-tabs.requests .nav-link {
+  color: black;
+
+  font-weight: bold;
+}
+.nav-tabs.requests .nav-item.show .nav-link,
+.nav-tabs.requests .nav-link.active {
+  color: #ed563b;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link:hover {
+  color: #ed563b;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}
+*/
+.schedule-item {
+  color: white;
+  border: solid 2px white;
+  padding: 5px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.schedule-item p.time {
+  color: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  text-align: center;
+}
+.schedule-item p.program {
+  color: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  text-align: center;
+}
+.schedule-item p.trainer {
+  color: #fff;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  text-align: center;
+}
+.btn-primary {
+  background-color: #ed563b;
+  border: solid 1px #ed563b;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: rgb(204, 43, 15);
+  border: solid 1px rgb(204, 43, 15);
+}
